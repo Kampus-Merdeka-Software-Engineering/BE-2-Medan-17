@@ -23,6 +23,7 @@ The technologies used for develop this backend are;
 ~ **nodemon** : Monitors code changes and automatically restarts the server during development.
 
 ~ **sequelize** : Promise-based Node.js ORM for relational databases, simplifying database operations and modeling.
+
 🕹️ Don't forget to install your dependencies by running your terminal by give a command **npm install (your dependencies name)** or just simply **npm i** e.g. **npm install express** you can also install multiple dependencies at the same time e.g. **npm i cors express sequelize**.
 
 
