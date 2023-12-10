@@ -52,6 +52,7 @@ Below is the plain example of **.env** variables;
 - DB_PASSWORD= your password
 - DB_NAME= your database name
 - DB_PORT= if you use MySQL as database it is commonly set up as 3306
+  
 ~ *Don't forget to connect to your database* ~
 
 ### 🌸 Set up Endpoint
