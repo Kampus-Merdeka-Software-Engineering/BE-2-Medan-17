@@ -47,11 +47,11 @@ This command creates a package.json file with default settings. You can modify t
 To configure you can set your environtment variables by creating a **.env** file on your root directory. This file is used for store the sensitive variables like your port and password so people won't know it. To make the .env wont commited as you push the project to repository you can create **.gitignore** file and simply add **.env** in it.
 Below is the plain example of **.env** variables;
 
-DB_HOST= your host server it is commonly 127.0.0.1
-DB_USER= your user commonly set up as root
-DB_PASSWORD= your password
-DB_NAME= your database name
-DB_PORT= if you use MySQL as database it is commonly set up as 3306
+- DB_HOST= your host server it is commonly 127.0.0.1
+- DB_USER= your user commonly set up as root
+- DB_PASSWORD= your password
+- DB_NAME= your database name
+- DB_PORT= if you use MySQL as database it is commonly set up as 3306
 ~ *Don't forget to connect to your database* ~
 
 ### 🌸 Set up Endpoint
