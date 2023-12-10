@@ -77,7 +77,7 @@ Some examples of endpoint are;
 
 
 ### 🔄 Integrate
-After done with API endpoint we should handle our front-end too so they both can request and response the data by using ***'fetch'* and put the URL of your endpoint beside fetch e.g. **fetch 'http://localhost:3000/getProduct'**
+After done with API endpoint we should handle our front-end too so they both can request and response the data by using ***'fetch'* and put the URL of your endpoint beside fetch e.g. fetch 'http://localhost:3000/getProduct'**
 
 
 ### 🍡 Deploy Express
