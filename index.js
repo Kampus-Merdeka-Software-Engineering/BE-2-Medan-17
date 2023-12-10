@@ -3,6 +3,12 @@ import cors from "cors";
 import db from "./config/Database.js";
 import dotenv from "dotenv";
 import UserRoute from  "./routes/UserRoute.js";
+import ProductRoute from "./routes/ProductRoute.js";
+import ContactUsRoute from "./routes/contactUsRoute.js";
+import LoginRoute from "./routes/LoginRoute.js";
+
+
+
 
 // Load environment variables from .env file
 dotenv.config();
@@ -16,6 +22,10 @@ app.use(express.json());
 app.use(cors());
 //routes
 app.use(UserRoute);
+app.use(ProductRoute);
+app.use(ContactUsRoute);
+app.use(LoginRoute);
+app.use(express.static('public')); 
 
 // connection to database and activate server
 db.sync({alter: true})

@@ -13,6 +13,14 @@ const User = db.define("user", {
     email: {
         type: DataTypes.STRING,
     },
+    username: {
+        type: DataTypes.STRING,
+    },
+    password: {
+        type: DataTypes.STRING,
+    }
 });
+
+
 
 export default User;
